@@ -5,11 +5,7 @@
 #include <stdio.h>
 #include "db.hpp"
 #include "util.hpp"
-
-
-	
-
-    
+ 
 
 void connectDB(DBConf* conf) {
 	sqlite3_open(conf->path, &(conf->db));
