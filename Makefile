@@ -9,6 +9,9 @@ neotio: $(OBJECT_FILES)
 	$(CC) $(CFLAGS) $(OBJECT_FILES) -lsqlite3 -ltag -o neotio
 
 
+# future: -lportaudio for portaudio
+# 	  -lavformat -lavcodec for ffmpeg
+
 
 .phony: clean
 
